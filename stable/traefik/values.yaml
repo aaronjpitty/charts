@@ -19,6 +19,7 @@ serviceType: LoadBalancer
 # loadBalancerSourceRanges: []
 whiteListSourceRange: []
 externalTrafficPolicy: Cluster
+# externalIP: ""
 replicas: 1
 # startupArguments:
 #   - "--ping"
